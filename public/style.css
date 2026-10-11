@@ -1,0 +1,27 @@
+
+body {
+    width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #cccccc;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: gray;
+}

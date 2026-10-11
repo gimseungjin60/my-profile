@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>개인 프로필</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>개인 프로필 소개</h1>
+
+    <hr>
+
+    <h2>기본 정보</h2>
+    <p>이름: <%= name %></p>
+    <p>학번: <%= studentId %></p>
+    <p>전공: <%= major %></p>
+
+    <hr>
+
+    <h2>자기소개</h2>
+    <p><%= introduction %></p>
+
+    <h2>취미</h2>
+    <p><%= hobby %></p>
+
+    <hr>
+
+    <h2>관심 분야</h2>
+    <ul>
+        <li>웹 프로그래밍</li>
+        <li>인공지능</li>
+        <li>새로운 기술 배우기</li>
+    </ul>
+
+    <footer>
+        <p>개인 프로필 홈페이지</p>
+    </footer>
+</body>
+</html>
